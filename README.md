@@ -27,8 +27,13 @@ However, if you mess up the order during the calibration, nothing will break, bu
 **Structure of the project:**
 
 tunnel_gui.py - GUI of the tunnel
+
 serial_reader.py - reads the COM port and sends the data to GUI
+
 calibration_matrix.txt - saves the calibration data between sessions
+
 svgplot.py - produces the svg of the shape of the intake (needed for CAD design)
+
 Arduino folder - code that is uploaded and executed on the arduino
+
 Files to print folder - stl files of all parts that were 3d printed for the wind tunnel
