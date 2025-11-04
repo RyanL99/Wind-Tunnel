@@ -17,10 +17,15 @@ When the speed stabilizes, record the data into .csv
 Calibration process:
 
 **Calibration is done by applying 1 N of force to each load cell. The load cells are numbered in this way:**
+
 Front vertical
+
 Front horizontal
+
 Back vertical
+
 Back horizontal
+
 However, if you mess up the order during the calibration, nothing will break, but you will have to stick to that new order.
 
 **Structure of the project:**
