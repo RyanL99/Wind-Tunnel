@@ -6,7 +6,7 @@ The system is modular, so new sensors and calibration methods can be added as th
 
 Made by Lev and Ryan
 
-Use instructions:
+**Use instructions:**
 
 Plug the power supply into the outlet
 Plug the USB into your laptop
@@ -16,15 +16,15 @@ Using the physical dial under the tunnel, set the fan power to match the desired
 When the speed stabilizes, record the data into .csv
 Calibration process:
 
-Calibration is done by applying 1 N of force to each load cell. The load cells are numbered in this way:
-
+**Calibration is done by applying 1 N of force to each load cell. The load cells are numbered in this way:
+**
 Front vertical
 Front horizontal
 Back vertical
 Back horizontal
 However, if you mess up the order during the calibration, nothing will break, but you will have to stick to that new order.
 
-Structure of the project:
+**Structure of the project:**
 
 tunnel_gui.py - GUI of the tunnel
 serial_reader.py - reads the COM port and sends the data to GUI
